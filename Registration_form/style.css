@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(218, 175, 235);
+    text-align: center;
+ 
+}
+h1 {
+    text-align: center;
+    margin: 10vh 0 0 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.center {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    table-layout: initial;
+    margin: 40px auto;
+    border-style: groove;
+    background-color: rgb(211, 174, 219);
+    color: black;
+}
+
+table.list {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 100%;
+}
+
+td {
+    border: 5px solid rgb(117, 17, 132);
+    text-align: left;
+    padding: 8px 15px;
+    background-color:#a1d0e5 ;
+    color: #000000;
+}
+
+tr:nth-child(even),
+table.list thread>tr {
+    background-color: #d0f1bf;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 10px 10px;
+    margin: 0px 0 10px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: rgb(199, 125, 61);
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border:rgb(130, 11, 130);
+    border-radius: 1.5cm;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+    background: rgb(109, 14, 136);
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background:rgb(109, 14, 136);
+    color: rgb(223, 169, 254);
+    font-size: 1.2rem;
+    font-family:'Times New Roman', Times, serif;
+}
+
+tbody {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input-part {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+
+button {
+    background: rgb(136, 9, 150);
+    color: black;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+}
